@@ -6,60 +6,66 @@ const initialState = {
       name: 'Priya Sharma',
       specialty: 'Divorce Lawyer',
       appointments: [
-        { id: 1, time: '09:00 AM - 09:30 AM', isSlotAvailable: true },
-        { id: 2, time: '10:00 AM - 10:30 AM', isSlotAvailable: true },
+        { id: 101, time: '09:00 AM - 09:30 AM', isSlotAvailable: true },
+        { id: 102, time: '10:00 AM - 10:30 AM', isSlotAvailable: true },
       ],
       bookedAppointments: [],
+      costPerAppoinment: 100
     },
     {
       id: 2,
       name: 'Rajiv Patel',
       specialty: 'Criminal Lawyer',
       appointments: [
-        { id: 1, time: '05:00 AM - 05:30 AM', isSlotAvailable: true },
-        { id: 2, time: '06:00 AM -  06:30 AM', isSlotAvailable: true },
+        { id: 201, time: '05:00 AM - 05:30 AM', isSlotAvailable: true },
+        { id: 202, time: '06:00 AM -  06:30 AM', isSlotAvailable: true },
       ],
       bookedAppointments: [],
+      costPerAppoinment: 120
     },
     {
       id: 3,
       name: 'Deepak Khanna',
       specialty: 'Property Dispute Lawyer',
       appointments: [
-        { id: 1, time: '01:00 AM - 01:30 AM', isSlotAvailable: true },
-        { id: 2, time: '03:00 AM - 03:30 AM', isSlotAvailable: true },
+        { id: 301, time: '01:00 AM - 01:30 AM', isSlotAvailable: true },
+        { id: 302, time: '03:00 AM - 03:30 AM', isSlotAvailable: true },
       ],
       bookedAppointments: [],
+      costPerAppoinment: 140
     },
      {
       id: 4,
       name: 'Aishwarya Desai',
       specialty: 'Divorce Lawyer',
       appointments: [
-        { id: 1, time: '10:00 AM - 10:30 AM', isSlotAvailable: true },
-        { id: 2, time: '11:00 AM - 11:30 AM', isSlotAvailable: true },
+        { id: 401, time: '10:00 AM - 10:30 AM', isSlotAvailable: true },
+        { id: 402, time: '11:00 AM - 11:30 AM', isSlotAvailable: true },
       ],
       bookedAppointments: [],
+      costPerAppoinment: 160
     },
     {
       id: 5,
       name: 'Arjun Mehta',
       specialty: 'Criminal Lawyer',
       appointments: [
-        { id: 1, time: '02:00 PM - 02:30 PM', isSlotAvailable: true },
-        { id: 2, time: '04:30 PM - 05:00 PM', isSlotAvailable: true },
+        { id: 501, time: '02:00 PM - 02:30 PM', isSlotAvailable: true },
+        { id: 502, time: '04:30 PM - 05:00 PM', isSlotAvailable: true },
       ],
       bookedAppointments: [],
+      costPerAppoinment: 170
     },
     {
       id: 6,
       name: 'Sneha Choudhary',
       specialty: 'Property Dispute Lawyer',
       appointments: [
-        { id: 1, time: '11:00 AM - 11:30 AM', isSlotAvailable: true },
-        { id: 2, time: '01:00 PM - 01:30 PM', isSlotAvailable: true },
+        { id: 601, time: '11:00 AM - 11:30 AM', isSlotAvailable: true },
+        { id: 602, time: '01:00 PM - 01:30 PM', isSlotAvailable: true },
       ],
       bookedAppointments: [],
+      costPerAppoinment: 200
     },
   ],
   selectedSpecialty: '',

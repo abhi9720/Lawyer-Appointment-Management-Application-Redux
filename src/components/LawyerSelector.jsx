@@ -28,7 +28,7 @@ const LawyerSelector = () => {
          
         {lawyers.map((lawyer) => (
           <MenuItem key={lawyer.id} value={lawyer.id}>
-            {lawyer.name}
+            {lawyer.name} | Rs. {lawyer.costPerAppoinment}
           </MenuItem>
         ))}
       </TextField>

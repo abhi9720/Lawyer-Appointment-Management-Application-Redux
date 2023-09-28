@@ -26,7 +26,7 @@ const TimeSlotSelector = () => {
       >
 
         {timeSlots.map((timeSlot) => (
-          <MenuItem disabled={!timeSlot.isSlotAvailable} key={timeSlot.itime} value={timeSlot.time}>
+          <MenuItem disabled={!timeSlot.isSlotAvailable} key={timeSlot.id} value={timeSlot.time}>
             {timeSlot.time}
           </MenuItem>
         ))}
